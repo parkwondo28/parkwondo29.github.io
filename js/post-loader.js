@@ -149,9 +149,9 @@
     var script = document.createElement("script");
     script.src = "https://giscus.app/client.js";
     script.setAttribute("data-repo", "parkwondo29/parkwondo29.github.io");
-    script.setAttribute("data-repo-id", "YOUR_REPO_ID"); // giscus.app에서 확인 후 교체
+    script.setAttribute("data-repo-id", "R_kgDORMyiEw"); // giscus.app에서 확인 후 교체
     script.setAttribute("data-category", "General");
-    script.setAttribute("data-category-id", "YOUR_CATEGORY_ID"); // giscus.app에서 확인 후 교체
+    script.setAttribute("data-category-id", "DIC_kwDORMyiE84C2Icu"); // giscus.app에서 확인 후 교체
     script.setAttribute("data-mapping", "pathname");
     script.setAttribute("data-strict", "0");
     script.setAttribute("data-reactions-enabled", "1");
