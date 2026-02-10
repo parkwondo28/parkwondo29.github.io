@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="parkwondo29의 개발 블로그 - GitHub Pages 정적 블로그"
+    />
+    <title>parkwondo29 Blog</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/prism.css" />
+
+    <!-- Prism.js Core + Languages -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-javascript.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-css.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-bash.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-json.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-markdown.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-yaml.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-java.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-typescript.min.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="site-title">parkwondo29 Blog</a>
+        <nav class="header-nav">
+          <button
+            id="theme-toggle"
+            class="theme-toggle-btn"
+            aria-label="테마 전환"
+          >
+            <span class="icon-sun">&#9728;</span>
+            <span class="icon-moon">&#9790;</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Search Section -->
+      <section class="search-section">
+        <div class="search-wrapper">
+          <input
+            type="text"
+            id="search-input"
+            class="search-input"
+            placeholder="게시글 검색..."
+            aria-label="게시글 검색"
+          />
+        </div>
+      </section>
+
+      <!-- Tags Filter -->
+      <section class="tags-section" id="tags-container">
+        <!-- 태그 버튼이 JavaScript로 동적 생성됩니다 -->
+      </section>
+
+      <!-- Posts List -->
+      <section class="posts-section" id="posts-container">
+        <!-- 게시글 카드가 JavaScript로 동적 생성됩니다 -->
+      </section>
+
+      <!-- No Results Message -->
+      <div class="no-results" id="no-results" style="display: none">
+        <p>검색 결과가 없습니다.</p>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>&copy; 2026 parkwondo29. Powered by GitHub Pages.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/theme.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/search.js"></script>
+  </body>
+</html>
